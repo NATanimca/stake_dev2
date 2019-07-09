@@ -1,0 +1,40 @@
+info {
+  height: 50%;
+  width: 50%;
+  border: 1px solid #333;
+  background-color: aliceblue;
+  float: left;
+}
+
+.pie-chart {
+    max-width: 300px;
+    margin: auto auto ;
+    text-align: right;
+  }
+  
+  .d3-tip {
+    font-size: 14px;
+    transition: 0.3s opacity linear, 0.3s -webkit-transform linear;
+    transition: 0.3s opacity linear, 0.3s transform linear;
+    transition: 0.3s opacity linear, 0.3s transform linear, 0.3s -webkit-transform linear;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 15px;
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+    color: #333;
+    text-align: right;
+  }
+  .d3-tip p {
+    margin: 0;
+    padding: 0;
+  }
+  .d3-tip.is-active {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  
+  .d3-tip__label {
+    font-weight: bold;
+  }
+  
