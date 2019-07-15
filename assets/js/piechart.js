@@ -1,6 +1,9 @@
 var datasPie = [
-    {"label":"unlock supply","number":"94115972","color":"#CDDC39" },
-    {"label":"Locked supply","number":"146405042","color":"#FFEB3B" }
+    {"label":"Ecological funds","number":"25","color":"#CDDC39" },
+    {"label":"Team(Lock 2 years)","number":"20","color":"#FFEB3B" },
+    {"label":"marketing","number":"10","color":"#FFEB3B" },
+    {"label":"collected and distributed","number":"40","color":"#FFEB3B" },
+    {"label":"Airdropped","number":"5","color":"#FFEB3B" },
   ];
   
   drawPie(datasPie);
