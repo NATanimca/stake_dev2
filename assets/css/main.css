@@ -2997,6 +2997,10 @@ input, select, textarea {
 			.spotlight .content header.major {
 				margin: 0 0 2em 0;
 			}
+
+			.spotlight .content li {
+				text-align: left;
+			}
 		
 		.spotlight .icons {
 			text-align: center;
@@ -3009,8 +3013,10 @@ input, select, textarea {
 		.spotlight .image {
 			display: inline-block;
 			margin-left: 4em;
+			margin-top: 4em;
 			padding: 0.65em;
 			border-radius: 100%;
+			text-align: center
 		}
 
 
@@ -3050,6 +3056,11 @@ input, select, textarea {
 						width: calc(100% + 1em);
 					}
 
+					.spotlight .content li {
+						text-align: left;
+						margin-left: 30%
+					}
+
 				.spotlight .image {
 					-moz-flex: 0 1 auto;
 					-webkit-flex: 0 1 auto;
@@ -3066,10 +3077,11 @@ input, select, textarea {
 			.spotlight .image {
 				padding: 0.35em;
 			}
-
+                /*
 				.spotlight .image img {
 					width: 12em;
 				}
+				*/
 
 		}
 
@@ -3587,7 +3599,7 @@ input, select, textarea {
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			padding: 2em 5em 3em 5em ;
 			border-top: solid 1px #dddddd;
 		}
 
