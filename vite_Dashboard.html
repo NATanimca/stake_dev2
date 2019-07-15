@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Vite</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'>
+		<link rel="stylesheet" href="assets/css/piechart.css">
+		<link rel="shortcut icon" type="images/x-icon" href="./stake_favicon.ico">
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<header id="header" class="alt">
+						<h1><a href="./index.html">Stake.dev</a></h1>
+						<p>we focus on the value of the blockchain</p>
+				</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Introduction</a></li>
+							<li><a href="#stats">Statistics</a></li>
+							<li><a href="#staking">Staking</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>Introduction</h2>
+										</header>
+										<p><a href="https://www.vite.org/">Vite</a> is generalised decentralized application platform that meets the requirements of industrial applications for high throughput, 
+											low latency and scalability while taking into account security. 
+										Vite uses DAG ledger structure, and transactions in ledgers are grouped by accounts.
+									    The Snapshot Chain structure in Vite can make up for the lack of security of the DAG ledger.</p>
+                                        
+										<header class="major">
+												<h2>Read more</h2>
+										</header>
+										<li><a href="https://github.com/vitelabs/whitepaper/blob/master/vite_en.pdf" target="_blank">Whitepaper</a></li>
+										<li><a href="https://vite.wiki/" target="_blank">Wiki</a></li>
+										<li><a href="https://explorer.vite.net" target="_blank">Block Explorer</a></li>
+										<li><a href="https://forum.vite.net/" target="_blank">Forum</a></li>
+										<li><a href="https://vite.wiki/tutorial/start/#rewards-in-pre-mainnet" target="_blank">Pre-Mainnet</a></li>
+										<p></p>
+										
+									</div>
+									<span class="image"><img src="images/icon.png" alt="" />
+										<ul class="icons">
+												<li><a href="https://twitter.com/vitelabs" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+												<li><a href="https://medium.com/vitelabs" class="icon brands fa-medium alt"><span class="label">Medium</span></a></li>
+												<li><a href="https://github.com/vitelabs" class="icon brands fa-github alt"><span class="label">Github</span></a></li>
+												<li><a href="https://t.me/vite_en" class="icon brands fa-telegram alt"><span class="label">Telegram</span></a></li>
+												<li><a href="https://discordapp.com/invite/CsVY76q" class="icon brands fa-discord alt"><span class="label">Discord</span></a></li>
+												
+										</ul>
+								    </span>
+									
+											
+
+									
+								</div>
+							</section>
+
+						
+						<!-- Second Section -->
+							<section id="stats" class="main special">
+								<header class="major">
+									<h2>Network Status</h2>
+								</header>
+								<div>
+									<h2>Token allocation plan(%)</h2>
+									<div class="js-pie-chart pie-chart" id="pieChart" style="position: relative; max-width: 60%;"></div>
+								</div>
+								<div class="table-wrapper">
+									<table>
+										<thead>
+											
+											<tr>
+												<td><strong>Item</strong></td>
+												<td><strong>Statistics</strong></td>
+												<td><strong>Remarks</strong></td>
+											</tr>
+										    
+										</thead>
+										<tbody>
+											<tr>
+											    <td>Available Supply</td>
+												<td>1,000,000,000 VITE</td>
+												<td>(total)</td>
+											</tr>
+											<tr>
+												<td>Circulating Supply</td>
+												<td>415,162,655 VITE</td>
+												<td>(accessible funds)</td>
+											</tr>
+											<tr>
+												<td>Engaged Balance</td>
+												<td>684,861,874 VITE</td>
+												<td>(participate in staking)</td>
+											</tr>
+											<tr>
+												<td>Total Validators</td>
+												<td>48 Validators</td>
+											</tr>
+											<tr>
+												<td>Active Validators</td>
+												<td>23 Validators</td>
+											    <td>(producing blocks at each round)</td>
+											</tr>
+											<tr>
+												<td>Block Time</td>
+												<td>1 s</td>
+												<td>(average since launch)</td>
+											</tr>
+											<tr>
+												<td>Staking Lock Up</td>
+												<td>3 months</td>
+												<td>(not accessible for this period)</td>
+											</tr>
+											<tr>
+												<td>Inflation</td>
+												<td>3 %</td>
+												<td>(based on current conditions)</td>
+											</tr>
+											<tr>
+												<td>supernode reward</td>
+												<td>3 %</td>
+												<td>(Once Mainnet is live, this 3% will be used to reward Supernodes)</td>
+											</tr>
+											<tr>
+												<td>Stake Ratio</td>
+												<td>68.49 %</td>
+												<td>(participate in staking)</td>
+											</tr>
+											<tr>
+												<td>* last updated: July 13th, 2019 10:00 AM</td>
+												
+											</tr>
+											
+										</tbody>
+										
+									</table>
+								</div>
+							</section>
+
+						<!-- Get Started -->
+							<section id="staking" class="main special">
+								<header class="major">
+									<h2>Staking</h2>
+									<p>Use Vite wallet to choose stake.dev. We are the only validator without any fee for the first year.
+								</br>Follow the guidance and download the vite wallet App to stake your Vite.</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="https://www.vite.org/products#wallet" class="button primary" target="_blank">Vite wallet</a></li>
+										<li><a href="https://medium.com/@stake_dev" class="button" target="_blank">Stake manual</a></li>
+									</ul>
+								</footer>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+                <footer id="footer">
+					<section style="text-align: center; width: 100%">
+						
+						<span>
+							<ul class="icons">
+								<li><a href="https://twitter.com/StakeDev" class="icon brands fa-twitter alt" target="_blank"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/stake.dev.3" class="icon brands fa-facebook alt" target="_blank"><span class="label">Facebook</span></a></li>
+								<li><a href="https://github.com/NATanimca" class="icon brands fa-github alt" target="_blank"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.reddit.com/user/stake_dev" class="icon brands fa-reddit alt" target="_blank"><span class="label">Reddit</span></a></li>
+								<li><a href="https://medium.com/@stake_dev" class="icon brands fa-medium alt" target="_blank"><span class="label">Medium</span></a></li>
+							</ul>
+						</span>
+						<span class="copyright">&copy; Stake.dev 2019</span>
+					</section>
+
+					 
+		    	</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+
+			<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js'></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.7/d3-tip.js'></script>
+            <script src="assets/js/piechart.js"></script>
+
+	</body>
+</html>
